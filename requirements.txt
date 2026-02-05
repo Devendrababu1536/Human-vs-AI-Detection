@@ -1,9 +1,9 @@
 fastapi
 uvicorn
 openai-whisper
-joblib
-numpy
-torch==2.1.2
-torchaudio==2.1.2
+torch==2.7.0
+torchaudio==2.7.0
 transformers
+joblib
+numpy<2
 python-multipart

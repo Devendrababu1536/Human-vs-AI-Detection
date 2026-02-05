@@ -847,7 +847,7 @@ os.makedirs(TEMP_DIR, exist_ok=True)
 # LOAD MODELS AND TOOLS
 # ======================================================
 
-whisper_model = whisper.load_model("medium")
+whisper_model = whisper.load_model("small")
 scaler = joblib.load("scaler.pkl")
 clf = joblib.load("logistic_model.pkl")
 encoder = joblib.load("meta_encoder.pkl")
